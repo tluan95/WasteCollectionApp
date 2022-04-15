@@ -57,7 +57,7 @@ class Login extends Component {
     }
 
     //change ip address accordinly
-    fetch('http://192.168.50.180:3000/user/login', {
+    fetch('(Your Ip Adress)/user/login', {
       method: 'POST',
       body: JSON.stringify({
         "userId": this.state.userId,

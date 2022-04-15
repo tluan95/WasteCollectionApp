@@ -1,3 +1,3 @@
 # WasteCollectionApp
 
-<img src ="user/img/mainscreen.PNG" width="500" height= "800">
+<img src ="user/img/mainscreen.PNG" width="400" height= "600">

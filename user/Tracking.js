@@ -77,7 +77,7 @@ class Tracking extends Component {
           <MapViewDirections
             origin={this.state.clientLocation}
             destination={this.state.driverLocation}
-            apikey={"AIzaSyC - VeSkqfZFn_9fPVDYvReCM - 230 - rhOrI"}
+            apikey={"Your Google Map Api Key"}
             strokeWidth={3}
             strokeColor="red"
             optimizeWaypoints={true}

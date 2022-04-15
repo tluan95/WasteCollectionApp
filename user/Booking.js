@@ -108,7 +108,7 @@ class Booking extends Component {
             return;
         }
 
-        fetch('http://192.168.50.180:3000/bookings', {
+        fetch('http://(Your Ip Adress)/bookings', {
             method: 'POST',
             body: JSON.stringify({
                 "location": "somewhere",

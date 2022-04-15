@@ -31,7 +31,7 @@ class ViewBookings extends Component {
     componentDidMount() {
 
 
-        fetch('http://192.168.50.180:3000/showBookings', {
+        fetch('http://(Your Ip Adress)/showBookings', {
             method: 'POST',
             body: JSON.stringify({
                 "userID": this.props.route.params.id,
